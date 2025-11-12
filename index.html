@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coursework</title>
-    <style>
-      :root {
-        --paper: oklch(7 0 0);
-        --ink: color-mix(in oklab, var(--color) 5%, black);
-        --font: 100%/1.5 system-ui;
-        --space: clamp(6px, 6px + 2vw, 15px);
-        --line: 1px solid;
-      }
-      body {
-        background: var(--paper);
-        color: var(--ink);
-        font: var(--font);
-        max-width: 1280px;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <header><h1>🧐 CYF Coursework Disposable Branch Previews</h1></header>
-    <main>
-      <ol>
-        <li>
-          <h2><a href="/Wireframe">Project 1: Wireframe</a></h2>
-          <p>
-            Mentors:
-            <a href="Wireframe/readme.md">open the assignment in a tab</a>
-          </p>
-        </li>
-        <li>
-          <h2><a href="/Form-Controls">Project 2: Form Controls</a></h2>
-          <p>
-            Mentors:
-            <a href="Form-Controls/readme.md">open the assignment in a tab</a>
-          </p>
-        </li>
-      </ol>
-    </main>
-    <footer><a href="HOW_TO_REVIEW.md">HOW TO REVIEW MD</a></footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Understanding Web Development Basics</title>
+  <!-- Vinculación con el archivo CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Understanding Web Development Basics</h1>
+    <p>Exploring README files, Wireframes, and Git Branches</p>
+  </header>
+
+  <main class="articles">
+    <!-- Article 1 -->
+    <article class="article">
+      <img src="https://via.placeholder.com/800x200" alt="README file illustration">
+      <h2>1. What is the Purpose of a README File?</h2>
+      <p>
+        A <strong>README file</strong> provides essential information about a project. 
+        It typically explains the purpose of the project, how to install and use it, 
+        and any prerequisites or dependencies. The README acts as a guide for users 
+        and collaborators, making the project easier to understand and contribute to.
+      </p>
+      <a class="read-more" href="#">Read More</a>
+    </article>
+
+    <!-- Article 2 -->
+    <article class="article">
+      <img src="https://via.placeholder.com/400x200" alt="Wireframe concept">
+      <h2>2. What is the Purpose of a Wireframe?</h2>
+      <p>
+        A <strong>wireframe</strong> is a visual representation of a webpage’s layout. 
+        It focuses on the structure and placement of elements such as headers, images, 
+        buttons, and text blocks, without including colors or final design details. 
+        Wireframes help developers and designers plan usability and functionality 
+        before coding begins.
+      </p>
+      <a class="read-more" href="#">Read More</a>
+    </article>
+
+    <!-- Article 3 -->
+    <article class="article">
+      <img src="https://via.placeholder.com/400x200" alt="Git branch diagram">
+      <h2>3. What is a Branch in Git?</h2>
+      <p>
+        In <strong>Git</strong>, a branch is a separate line of development that allows 
+        developers to work on new features or fixes independently from the main codebase. 
+        Branching supports collaboration, experimentation, and safe testing before merging 
+        changes into the main project (usually the <code>main</code> or <code>master</code> branch).
+      </p>
+      <a class="read-more" href="#">Read More</a>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Web Development Basics | Contact: info@example.com</p>
+  </footer>
+</body>
 </html>
